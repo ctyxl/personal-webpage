@@ -65,7 +65,7 @@ const portfolio = () => {
       </p>
       <br />
       <br />
-      <img src="/public/github.png" className="icon" />
+      <img src="/github.png" className="icon" />
       <a
         target="_blank"
         href="https://github.com/UniSA-PS-Web-Pain/uni-ps-covid-checkin"
