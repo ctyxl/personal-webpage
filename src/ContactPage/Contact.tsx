@@ -17,17 +17,17 @@ const contact = () => {
             <br />
           </p>
           <div className="column">
-            <img src="/public/phone.png" alt="phone" className="icon" />
+            <img src="/phone.png" alt="phone" className="icon" />
             +61 468 627 647 <br />
             <br />
-            <img src="/public/location.png" alt="mail" className="icon" />
+            <img src="/location.png" alt="mail" className="icon" />
             Adelaide, South Australia
           </div>
           <br /> <br />
           <div className="column">
-            <img src="/public/mail.png" alt="mail" className="icon" />
+            <img src="/mail.png" alt="mail" className="icon" />
             c.indle091@gmail.com <br /> <br />
-            <img src="/public/linkedin.png" alt="linkedin" className="icon" />
+            <img src="/linkedin.png" alt="linkedin" className="icon" />
             <a target="_blank" href="https://www.linkedin.com/in/cindyle09/">
               LinkedIn
             </a>
