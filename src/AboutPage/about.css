@@ -1,0 +1,166 @@
+.about-container {
+    width: 100%;
+    height: 100vh;
+    animation: fadeInText ease 2.5s;
+    background-color: rgb(241, 235, 235);
+    z-index: -1;
+    /* background-image: url('../../public/gradn.jpg');
+    background-size:cover; */
+}
+
+.introText {
+    font-family: calluna;
+    margin-top: 85px;
+}
+
+.techText {
+    font-family: calluna;
+    margin-top: 15px;
+}
+
+.techText p {
+    line-height: 200%;
+}
+
+.leftAbout{
+    top: 39%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 0%;
+}
+
+.aboutBody {
+    position: relative;
+    width: 500px;
+    top: 10%;
+    margin-left: 30px;
+    margin-right: 65px;
+    color: rgb(170, 170, 170);
+    font-family: calluna;
+}
+
+.aboutTitle {
+    position: relative;
+    font-family: tokyo-outline;
+    font-style: italic;
+    color: #95b9d0;
+    font-size: 70px;
+    z-index: 0;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-left: 65px;
+    bottom: 20%;
+}
+
+.dot {
+    background-color: #95b9d0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 60px 0 0 -2px #bad5e6,
+                120px 0 0 -4px #cbe3f3,
+                180px 0 0 -6px #dfedf8;
+    display: inline-block;
+    position: relative;
+    top: 13%;
+    left: 0%;
+  }
+
+.dot box-shadow:hover {
+    color: #000000;
+}
+
+.aboutHeader {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 105px;
+    margin-left: 65px;
+    margin-right: 65px;
+    font-family: 'bergen-text';
+}
+
+.returnHeader{
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 105px;
+    margin-right: 65px;
+    margin-left: 65px;
+    font-family: 'bergen-text';
+    transition: ease-in-out 1s;
+}
+
+.navBarAbout{
+    font-family: 'bergen-text';
+    font-weight: 550;
+    color: rgb(170, 170, 170);
+    position: absolute;
+    display: flex;
+    margin-left: 65px;
+    margin-bottom: 100px;
+    bottom: 0;
+    text-indent: 0.5em;
+}
+
+.navBarAbout p {
+    transition: ease-in-out 1s;
+}
+
+.navBarAbout p:hover {
+    color:  #95b9d0;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.returnHeader:hover {
+    color:  #95b9d0;
+    transition: ease-in-out 1s;
+}
+
+.navMenu {
+    position: absolute;
+    display: flex;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 105px;
+    margin-right: 65px;
+    margin-left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-family: bergen-text;
+    color: rgb(170, 170, 170);
+}
+
+.menuOptions span:nth-child(even) {
+    display: inline-flex;
+    overflow: hidden;
+    transition: ease-in-out 1s;
+    letter-spacing:  -1em;
+
+}
+
+.menuOptions:hover span {
+    color: #95b9d0;
+    transition: ease 1s;
+}
+
+.menuOptions:hover span:nth-child(even) {
+    letter-spacing: 0em;
+    color: #95b9d0;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,51 @@
+.verticalLine {
+    height: 300px;
+    background: rgb(194, 194, 194);
+    margin: 0 20px;
+    min-width: 2px;
+}
+
+.icon {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.contactBody {
+    position: relative;
+    width: 600px;
+    top: 115%;
+    margin-left: 30px;
+    margin-right: 65px;
+    color: rgb(170, 170, 170);
+    font-family: calluna;
+    display: flex;
+}
+
+.contactBody a {
+    text-decoration: underline;
+    color: rgb(170, 170, 170);
+    transition: ease-in-out 1s;
+}
+
+.contactBody a:hover {
+    color: #95b9d0;
+    transition: ease-in-out 1s;
+}
+
+.contactTitle {
+    position: relative;
+    font-family: tokyo-outline;
+    font-style: italic;
+    color: #95b9d0;
+    font-size: 70px;
+    z-index: 0;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-left: 65px;
+    bottom: 20%;
+}
+
+.column {
+    flex: 50%;
+    margin-top: 10px;
+}
