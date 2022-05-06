@@ -9,7 +9,7 @@ const portfolio = () => {
         onClick={() => {
           setText(projectOne);
           setSubText("Covid Check-In Application");
-          setBack(goBack);
+          setHide("");
         }}
       >
         <i>
@@ -23,7 +23,7 @@ const portfolio = () => {
         onClick={() => {
           setText(projectTwo);
           setSubText("Amazon Directory");
-          setBack(goBack);
+          setHide("");
         }}
       >
         <i>
@@ -36,7 +36,7 @@ const portfolio = () => {
         onClick={() => {
           setText(projectThree);
           setSubText("Personal Website");
-          setBack(goBack);
+          setHide("");
         }}
       >
         <i>
@@ -104,26 +104,18 @@ const portfolio = () => {
         <br />
         <b>Tools</b>: Vitejs, Figma
       </p>
-    </div>
-  );
-
-  const goBack = (
-    <div>
-      <p
-        onClick={() => {
-          setText(portfolioListText);
-          setSubText("");
-          setBack("");
-        }}
-      >
-        Go Back
-      </p>
+      <br />
+      <br />
+      <img src="/public/github.png" className="icon" />
+      <a target="_blank" href="https://github.com/ctyxl/personal-webpage">
+        GitHub
+      </a>
     </div>
   );
 
   const [text, setText] = useState(portfolioListText);
   const [subText, setSubText] = useState("");
-  const [back, setBack] = useState("");
+  const [hide, setHide] = useState("none");
 
   return (
     <div className="about-container">
@@ -175,7 +167,19 @@ const portfolio = () => {
           </li>
         </Link>
       </ul>
-      <div className="navBarAbout">{back}</div>
+      <div className="navBarAbout" style={{ display: `${hide}` }}>
+        <div>
+          <p
+            onClick={() => {
+              setText(portfolioListText);
+              setSubText("");
+              setHide("none");
+            }}
+          >
+            Go Back
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

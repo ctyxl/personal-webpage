@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Lottie from "react-lottie";
 
 import "./Loader.css";
@@ -8,9 +7,6 @@ const geoAni = {
   loop: true,
   autoplay: true,
   animationData: geoAnimation,
-  rendererSettings: {
-    preserveAspectRation: "xMidYMid slice",
-  },
 };
 
 const loader = () => {
