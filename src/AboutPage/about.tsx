@@ -20,8 +20,8 @@ const introText = (
 const techText = (
   <div className="techText">
     <p>
-      <b>Front-end Development</b>: JavaScript, React, Vue, HTML5, CSS3,
-      Bootstrap
+      <b>Front-end Development</b>: JavaScript, React, TypeScript, Vue, HTML5,
+      CSS3, Bootstrap
     </p>
     <br />
     <p>
