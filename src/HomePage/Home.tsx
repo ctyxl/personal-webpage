@@ -21,9 +21,11 @@ const home = () => {
         <span className="number">09</span>
       </p>
       <ul className="menu">
-        <li className="menuOption">
-          <span>01 </span> <span>Home</span>
-        </li>
+        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+          <li className="menuOption">
+            <span>01 </span> <span>Home</span>
+          </li>
+        </Link>
         <Link to="about" style={{ textDecoration: "none", color: "white" }}>
           <li className="menuOption">
             <span>02 </span> <span>About</span>
