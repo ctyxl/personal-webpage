@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
+import pdf from "/Cindy Le - Resume 2022.pdf";
 
 const introText = (
   <div className="introText">
@@ -103,6 +104,12 @@ const about = () => {
         <p onClick={() => setText(introText)}>About</p>
         <p>|</p>
         <p onClick={() => setText(techText)}> Technical Experience</p>
+        <p>|</p>
+        <p>
+          <a href={pdf} target="_blank" rel="noreferrer">
+            Resume
+          </a>
+        </p>
       </div>
     </div>
   );

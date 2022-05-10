@@ -118,6 +118,18 @@
     cursor: pointer;
 }
 
+.navBarAbout a {
+    color: rgb(170, 170, 170);
+    transition: ease-in-out 1s;
+    text-decoration: none;
+}
+
+.navBarAbout a:hover {
+    color:  #95b9d0;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
 .returnHeader:hover {
     color:  #95b9d0;
     transition: ease-in-out 1s;
