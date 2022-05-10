@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./portfolio.css";
+import covidDemo from "/Product Demo.mp4";
 
 const portfolio = () => {
   const portfolioListText = (
@@ -71,6 +72,10 @@ const portfolio = () => {
         href="https://github.com/UniSA-PS-Web-Pain/uni-ps-covid-checkin"
       >
         GitHub
+      </a>
+      <p> | </p>
+      <a target="_blank" href={covidDemo}>
+        Product Demo
       </a>
     </div>
   );
