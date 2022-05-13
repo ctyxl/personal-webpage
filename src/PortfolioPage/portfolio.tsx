@@ -62,7 +62,10 @@ const portfolio = () => {
       <p>
         <b>Languages</b>: React, TypeScript, CSS
         <br />
-        <b> Back-end</b>: MongoDB <br /> <b>Tools</b>: GitHub, JIRA, Framer
+        <b> Back-end</b>: MongoDB{" "}
+        <p className="toolOne">
+          <b> Tools</b>: GitHub, JIRA, Framer
+        </p>
       </p>
       <br />
       <br />

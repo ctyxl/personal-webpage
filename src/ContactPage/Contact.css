@@ -14,6 +14,7 @@
     position: relative;
     width: 600px;
     top: 115%;
+    margin-top: 100px;
     margin-left: 30px;
     margin-right: 65px;
     color: rgb(170, 170, 170);
@@ -39,7 +40,7 @@
     color: #95b9d0;
     font-size: 70px;
     z-index: 0;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-right: 50px;
     margin-left: 65px;
     bottom: 20%;

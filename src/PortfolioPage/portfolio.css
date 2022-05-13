@@ -1,7 +1,7 @@
 .portfolioBody {
     position: relative;
     width: 500px;
-    top: 10%;
+    top: 20%;
     margin-left: 30px;
     margin-right: 65px;
     color: rgb(170, 170, 170);
@@ -9,7 +9,7 @@
 }
 
 .portfolioList {
-    margin-top: 45px;
+    margin-top: 65px;
 }
 
 .portfolioList b {
@@ -30,7 +30,7 @@
 }
 
 .projectOne {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .projectOne p {
@@ -49,8 +49,12 @@
     transition: ease-in-out 1s;
 }
 
+.toolOne {
+    margin-left: 10px;
+}
+
 .projectTwo {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .projectTwo p {
@@ -58,7 +62,7 @@
 }
 
 .projectThree {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .projectThree p {

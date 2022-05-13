@@ -3,7 +3,7 @@
     height: 100vh;
     text-align: center;
     animation: fadeInText ease 5.5s;
-    background-image: url('../../public/bg.jpg');
+    background-image: url('/bg.jpg');
     background-size:cover;
 } 
 
